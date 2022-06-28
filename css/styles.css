@@ -1,0 +1,98 @@
+nav, nav.navbar {
+	background-color 		: #eee;
+}
+
+.fortune {
+	font-family: Candara,Calibri,'Trebuchet MS',Tahoma,Verdana,Arial,sans-serif;
+	font-size: 1.2em;
+	width: 60%;
+	background-color: #F9E79F;
+}
+
+.vehinfo.label {
+	display: inline-block;
+}
+
+#tabs {
+	margin-bottom: 0px;
+}
+.tabContent {
+	display: none;
+	padding: 1rem;
+	border-left: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+
+}
+.tabContent.is-active {
+	display: block;
+}
+
+
+table {
+	width: 100%;
+}
+.boxit {
+	border 				: 1px solid #777;
+	font-size 			: 90%;
+	text-align 			: center;
+	width 				: 100%;
+}
+.dense td input {
+	width: 100%;
+}
+.ldense td.align-right, .dense td:first-child {
+	text-align: right;
+	padding-right: 0.6rem;
+}
+.ldense td.align-right {
+	font-weight: bold;
+}
+.ldense td {
+	font-size 			: 0.8em;
+	margin-bottom 		: 2px;
+	padding 			: 1px 0.2rem;
+}
+input[type="checkbox"].bigger {
+	box-sizing: border-box;
+	width: 15px;
+	height: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.statuslog {
+	width: 80%;
+	font-size: 0.8em;
+}
+
+table.log th {
+	background-color: #ebebeb;
+}
+
+table.log th, table.log td {
+  vertical-align: top;
+  border: 1px solid #999;
+  border-spacing: 0;
+}
+div.foot_ts {
+	display: inline;
+	font-size: 90%;
+	font-family: Consolas, 'Lucida Console', 'Courier New', Courier, monospace;
+	padding: 2px 18px;
+	border: 1px dotted #ddd;
+	border-radius: 3;
+}
+footer {
+font-size: 90%;	
+	height: 30px;
+	line-height: 12px;
+	
+
+}
+
+.tabs li {
+	font-size: 90%;
+	font-style: italic;
+	color: #888;
+}
